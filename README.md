@@ -1,2 +1,1 @@
-javascript
-==========
+JavaScript files go here!
