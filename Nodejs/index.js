@@ -48,24 +48,6 @@ ls().catch(function (err) {
 });
 
 
-
-//let http = require('http')
-//
-//
-//
-//http.createServer((req, res) => {
-//
-//   
-//    fs.promise.readdir(__dirname).then(function (files) {
-//        console.log("using promise " + files)
-//    })
-//
-//
-//    fs.promise.readFile("control-flow.js").then(function (files) {
-//        console.log("using promise readfile " + files)
-//    })
-//
-//
 //    //BEST
 //    //Using async await
 //    async function ls() {
@@ -75,5 +57,3 @@ ls().catch(function (err) {
 //    ls().catch(function(err) {
 //      console.log(err.stack);
 //    });
-//
-//}).listen(8000, '127.0.0.1');
