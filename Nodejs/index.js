@@ -7,6 +7,7 @@ app.set('view engine', 'ejs');
 
 app.listen(8000);
 
+//rendering the ejs file
 app.get('/', function (req, res) {
 	res.render('index.ejs');
 });
